@@ -19,7 +19,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/pagestest2' : ''
+			base: process.env.NODE_ENV === '' ? '/pagestest2' : ''
 		}
 	}
 };
